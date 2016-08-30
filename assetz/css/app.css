@@ -1,0 +1,45 @@
+#background {
+	height: calc(100% - 50px);
+	background-image: url('../img/field.jpg');
+	background-size: cover;
+}
+
+#header-logo img {
+	height: 40px;
+}
+
+#home-top {
+	margin-right: 0px !important;
+	margin-left: 0px !important; 
+	height: 50px;
+	padding: 10px 50px;
+}
+
+#home-top .log-action {
+	text-align: center;
+}
+
+.welcome {
+	height: 100%;
+	line-height: 2;
+	text-align: right;
+}
+
+.welcome form {
+    float: right;
+    margin-left: 15px;
+}
+
+#user-menu {
+	padding-top: 20px;
+    background: #fff;
+    width: 200px;
+    position: absolute;
+    right: -65px;
+    display: none;
+}
+
+#user-menu li {
+	list-style-type: none;
+    text-align: left;
+}

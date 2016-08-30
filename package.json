@@ -1,0 +1,28 @@
+{
+  "name": "desporto-agora",
+  "description": "Tudo sobre o desporto, num único lugar!",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "nodemon Server.js",
+    "test": "mocha test.js",
+    "watch": "gulp watch"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "express": "4.14.0",
+    "express-stormpath": "^3.1.5",
+    "forms": "^1.2.0",
+    "jade": "^1.11.0",
+    "mysql": "2.11.1",
+    "node-schedule": "^1.1.1",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "gulp": "3.8.11",
+    "gulp-mocha": "2.0.1",
+    "mocha": "2.2.4"
+  },
+  "license": "MIT"
+}
